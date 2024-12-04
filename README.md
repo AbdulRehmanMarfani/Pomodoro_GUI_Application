@@ -24,7 +24,7 @@ Follow these steps to get your development environment set up:
 ### 1. Clone the repository:
 
 ```bash
-git clone (https://github.com/AbdulRehmanMarfani/Pomodoro_GUI_Application/edit/main/README.md)
+git clone (https://github.com/AbdulRehmanMarfani/Pomodoro_GUI_Application.git)
 ```
 
 ### 2. Install the required dependencies:
