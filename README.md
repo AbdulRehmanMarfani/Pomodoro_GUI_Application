@@ -31,10 +31,6 @@ git clone (https://github.com/AbdulRehmanMarfani/Pomodoro_GUI_Application.git)
 
 Ensure you have **Python** installed on your machine. You can install any required packages by running:
 
-```bash
-pip install -r requirements.txt
-```
-
 If you're using any specific libraries like `tkinter`, make sure they are installed (though `tkinter` usually comes bundled with Python).
 
 ---
