@@ -27,7 +27,7 @@ Follow these steps to get your development environment set up:
 ### 1. Clone the repository:
 
 ```bash
-git clone [https://github.com/your_username/your_project_name.git](https://github.com/AbdulRehmanMarfani/Pomodoro_GUI_Application/edit/main/README.md)
+git clone (https://github.com/AbdulRehmanMarfani/Pomodoro_GUI_Application/edit/main/README.md)
 ```
 
 ### 2. Install the required dependencies:
@@ -49,7 +49,7 @@ If you're using any specific libraries like `tkinter`, make sure they are instal
    In the terminal or command prompt, navigate to the project folder and run:
 
    ```bash
-   python pomodoro_timer.py
+   python main.py
    ```
 
 2. **Control the Timer**:
