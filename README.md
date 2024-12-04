@@ -1,5 +1,3 @@
-# Pomodoro_GUI_Application
-Boost Your Productivity with Timed Focus Sessions!
 A good **README** file serves as the guide for anyone viewing your GitHub repository. It provides them with all the necessary information to understand, install, and use your project. Below is a suggested structure for your **Pomodoro Timer Project** README, with explanations for each section:
 
 ---
@@ -29,7 +27,7 @@ Follow these steps to get your development environment set up:
 ### 1. Clone the repository:
 
 ```bash
-git clone (https://github.com/AbdulRehmanMarfani/Pomodoro_GUI_Application.git)
+git clone [https://github.com/your_username/your_project_name.git](https://github.com/AbdulRehmanMarfani/Pomodoro_GUI_Application/edit/main/README.md)
 ```
 
 ### 2. Install the required dependencies:
@@ -99,7 +97,8 @@ We welcome contributions to improve this project. Please fork the repository and
 
 Feel free to reach out with any questions or feedback!
 
-- **Email**: your_email@example.com
-- **GitHub**: [your_username](https://github.com/your_username)
+- **Email**: abdulrehmanmarfani84@gmail.com
+- **GitHub**: [AdulRehmanMarfani](https://github.com/AbdulRehmanMarfani)
 
 ---
+
