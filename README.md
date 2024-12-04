@@ -1,5 +1,3 @@
-A good **README** file serves as the guide for anyone viewing your GitHub repository. It provides them with all the necessary information to understand, install, and use your project. Below is a suggested structure for your **Pomodoro Timer Project** README, with explanations for each section:
-
 ---
 
 # Pomodoro Timer
@@ -15,8 +13,7 @@ A simple **Pomodoro Timer** application built using **Python** and **`tkinter`**
 3. [Features](#features)
 4. [Technologies Used](#technologies-used)
 5. [Contributing](#contributing)
-6. [License](#license)
-7. [Contact](#contact)
+6. [Contact](#contact)
 
 ---
 
