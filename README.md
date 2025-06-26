@@ -1,97 +1,101 @@
----
-
-# Pomodoro Timer
-
-A simple **Pomodoro Timer** application built using **Python** and **`tkinter`**. The app follows the **Pomodoro Technique** for time management to boost productivity, offering customizable work/break intervals, visual progress tracking, and a clean user interface.
 
 ---
 
-## Table of Contents
+````markdown
+# ⏱️ Pomodoro Timer - GUI App (Tkinter)
 
-1. [Installation](#installation)
-2. [How to Use](#how-to-use)
-3. [Features](#features)
-4. [Technologies Used](#technologies-used)
-5. [Contributing](#contributing)
-6. [Contact](#contact)
+A simple and effective **Pomodoro Timer** built using Python and Tkinter.  
+This app helps boost productivity by following the Pomodoro Technique: alternating work sessions with short and long breaks.
 
 ---
 
-## Installation
+## 🔧 Features
 
-Follow these steps to get your development environment set up:
+- 25-minute work sessions  
+- 5-minute short breaks  
+- 20-minute long breaks after every 4 sessions  
+- Visual ✔️ tick marks to track progress  
+- Tomato-themed GUI with a countdown display  
+- Start and Reset functionality
 
-### 1. Clone the repository:
+---
+
+## 📸 Screenshots
+
+![Pomodoro Timer Screenshot](tomato.png)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
 
 ```bash
-git clone (https://github.com/AbdulRehmanMarfani/Pomodoro_GUI_Application.git)
+git clone https://github.com/yourusername/pomodoro-timer.git
+cd pomodoro-timer
+````
+
+### 2. Run the App
+
+Make sure you have Python 3 installed.
+
+```bash
+python main.py
 ```
 
-### 2. Install the required dependencies:
+---
 
-Ensure you have **Python** installed on your machine. You can install any required packages by running:
+## 🖼️ Requirements
 
-If you're using any specific libraries like `tkinter`, make sure they are installed (though `tkinter` usually comes bundled with Python).
+* Python 3.x
+* `tkinter` (pre-installed with Python)
+* A file named `tomato.png` in the same directory for the GUI image
 
 ---
 
-## How to Use
+## 📁 File Structure
 
-1. **Run the Application**:
-
-   In the terminal or command prompt, navigate to the project folder and run:
-
-   ```bash
-   python main.py
-   ```
-
-2. **Control the Timer**:
-   - **Start**: Click the *Start* button to begin a work session.
-   - **Pause/Resume**: Click *Pause* to pause the timer and *Resume* to continue from where you left off.
-   - **Reset**: Click *Reset* to reset the timer back to its default state.
-   
-   The timer will automatically switch between work and break intervals, with visual indicators to show your progress (checkmarks).
+```
+pomodoro-timer/
+│
+├── main.py          # Main Python script
+├── tomato.png       # Image used in the GUI
+└── README.md        # You're here!
+```
 
 ---
 
-## Features
+## 🧠 How It Works
 
-- **Customizable Timers**: Set your preferred work and break durations.
-- **Pause/Resume**: Pause the timer and resume it from the same point.
-- **Automatic Transitions**: The timer switches between work and break sessions.
-- **Progress Tracking**: Visual checkmarks show completed sessions.
-- **Sound Notifications**: Receive alerts when a session ends.
-- **Clean User Interface**: A simple, modern UI designed with **`tkinter`**.
+* Work sessions and breaks are controlled using a `countdown()` timer.
+* After each work session, a ✔️ appears to track completed sessions.
+* After every 4 work sessions, a long break is triggered.
+* The GUI is built with Tkinter, and the timer updates every second.
 
 ---
 
-## Technologies Used
+## ✨ Future Improvements
 
-- **Python**: The primary language used for building the application.
-- **`tkinter`**: The GUI library used for creating the graphical user interface.
-- **`math`**: Used for calculating time intervals.
-
----
-
-## Contributing
-
-We welcome contributions to improve this project. Please fork the repository and create a pull request with your changes.
-
-### Steps for contributing:
-
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Make your changes.
-4. Submit a pull request with a clear explanation of the changes.
+* Add sound alerts when sessions end
+* User-defined session times
+* Progress bar instead of ticks
+* Notification pop-ups
 
 ---
 
-## Contact
+## 📃 License
 
-Feel free to reach out with any questions or feedback!
-
-- **Email**: abdulrehmanmarfani84@gmail.com
-- **GitHub**: [AdulRehmanMarfani](https://github.com/AbdulRehmanMarfani)
+This project is open-source and free to use under the [MIT License](LICENSE).
 
 ---
+
+## 💡 Inspiration
+
+This project is part of my Python learning journey and was created to practice GUI development and time-based logic using the Pomodoro productivity method.
+
+---
+
+## 🙌 Made with ❤️ by Abdul Rehman Marfani
+
+```
 
